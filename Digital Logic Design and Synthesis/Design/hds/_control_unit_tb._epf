@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom control_unit_tb
-DEFAULT_FILE atom control_unit_tb_tb_rtl.v

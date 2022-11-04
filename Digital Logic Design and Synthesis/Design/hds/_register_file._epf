@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom register_file
-DEFAULT_FILE atom register_file.sv

@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom encoder_tb
-DEFAULT_FILE atom encoder_tb_tb_rtl.v

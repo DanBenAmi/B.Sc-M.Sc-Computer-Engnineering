@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom control_unit
-DEFAULT_FILE atom control_unit.sv

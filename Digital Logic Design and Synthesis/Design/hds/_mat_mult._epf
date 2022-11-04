@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom mat_mult
-DEFAULT_FILE atom mat_mult.sv

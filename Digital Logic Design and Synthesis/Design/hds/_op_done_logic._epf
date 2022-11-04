@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom op_done_logic
-DEFAULT_FILE atom op_done_logic.sv
