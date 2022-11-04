@@ -1,0 +1,1026 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C(15|20) (0x020B30DD)" sof_file="../output_files/task3final.sof">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="34"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup hierarchy Execute:EXE" value="3"/>
+      <single attribute="setup hierarchy Test" value="3"/>
+      <single attribute="setup hierarchy control:CTL" value="3"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="16"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="8176"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2020/09/11 12:11:14  #0">
+      <clock name="clock" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="256" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="ALU_result_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Branch_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Execute:EXE|ALU_ctl[0]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[1]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[2]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Instruction_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Memwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Regwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Zero_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="control:CTL|ALUSrc" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="control:CTL|RegWrite" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="key1" tap_mode="probeonly" type="input pin"/>
+          <wire name="key2" tap_mode="probeonly" type="input pin"/>
+          <wire name="key3" tap_mode="probeonly" type="input pin"/>
+          <wire name="read_data_1_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="reset" tap_mode="probeonly" type="input pin"/>
+          <wire name="write_data_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[9]" tap_mode="probeonly" type="output pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="ALU_result_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Branch_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Execute:EXE|ALU_ctl[0]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[1]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[2]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Instruction_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Memwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Regwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Zero_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="control:CTL|ALUSrc" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="control:CTL|RegWrite" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="key1" tap_mode="probeonly" type="input pin"/>
+          <wire name="key2" tap_mode="probeonly" type="input pin"/>
+          <wire name="key3" tap_mode="probeonly" type="input pin"/>
+          <wire name="read_data_1_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="reset" tap_mode="probeonly" type="input pin"/>
+          <wire name="write_data_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[9]" tap_mode="probeonly" type="output pin"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="ALU_result_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="ALU_result_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Branch_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Execute:EXE|ALU_ctl[0]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[1]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Execute:EXE|ALU_ctl[2]" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="Instruction_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Instruction_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Memwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="PC[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="Regwrite_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="Zero_out" tap_mode="probeonly" type="output pin"/>
+          <wire name="control:CTL|ALUSrc" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="control:CTL|RegWrite" tap_mode="probeonly" type="combinatorial"/>
+          <wire name="key1" tap_mode="probeonly" type="input pin"/>
+          <wire name="key2" tap_mode="probeonly" type="input pin"/>
+          <wire name="key3" tap_mode="probeonly" type="input pin"/>
+          <wire name="read_data_1_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_1_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="read_data_2_out[9]" tap_mode="probeonly" type="output pin"/>
+          <wire name="reset" tap_mode="probeonly" type="input pin"/>
+          <wire name="write_data_out[0]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[10]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[11]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[12]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[13]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[14]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[15]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[16]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[17]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[18]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[19]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[1]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[20]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[21]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[22]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[23]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[24]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[25]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[26]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[27]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[28]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[29]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[2]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[30]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[31]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[3]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[4]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[5]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[6]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[7]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[8]" tap_mode="probeonly" type="output pin"/>
+          <wire name="write_data_out[9]" tap_mode="probeonly" type="output pin"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="ALU_result_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="ALU_result_out[31]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[30]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[29]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[28]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[27]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[26]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[25]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[24]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[23]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[22]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[21]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[20]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[19]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[18]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[17]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[16]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[15]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[14]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[13]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[12]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[11]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[10]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[9]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[8]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[7]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[6]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[5]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[4]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[3]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[2]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[1]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Branch_out"/>
+          <bus is_signal_inverted="no" link="all" name="Instruction_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Instruction_out[31]"/>
+            <net is_signal_inverted="no" name="Instruction_out[30]"/>
+            <net is_signal_inverted="no" name="Instruction_out[29]"/>
+            <net is_signal_inverted="no" name="Instruction_out[28]"/>
+            <net is_signal_inverted="no" name="Instruction_out[27]"/>
+            <net is_signal_inverted="no" name="Instruction_out[26]"/>
+            <net is_signal_inverted="no" name="Instruction_out[25]"/>
+            <net is_signal_inverted="no" name="Instruction_out[24]"/>
+            <net is_signal_inverted="no" name="Instruction_out[23]"/>
+            <net is_signal_inverted="no" name="Instruction_out[22]"/>
+            <net is_signal_inverted="no" name="Instruction_out[21]"/>
+            <net is_signal_inverted="no" name="Instruction_out[20]"/>
+            <net is_signal_inverted="no" name="Instruction_out[19]"/>
+            <net is_signal_inverted="no" name="Instruction_out[18]"/>
+            <net is_signal_inverted="no" name="Instruction_out[17]"/>
+            <net is_signal_inverted="no" name="Instruction_out[16]"/>
+            <net is_signal_inverted="no" name="Instruction_out[15]"/>
+            <net is_signal_inverted="no" name="Instruction_out[14]"/>
+            <net is_signal_inverted="no" name="Instruction_out[13]"/>
+            <net is_signal_inverted="no" name="Instruction_out[12]"/>
+            <net is_signal_inverted="no" name="Instruction_out[11]"/>
+            <net is_signal_inverted="no" name="Instruction_out[10]"/>
+            <net is_signal_inverted="no" name="Instruction_out[9]"/>
+            <net is_signal_inverted="no" name="Instruction_out[8]"/>
+            <net is_signal_inverted="no" name="Instruction_out[7]"/>
+            <net is_signal_inverted="no" name="Instruction_out[6]"/>
+            <net is_signal_inverted="no" name="Instruction_out[5]"/>
+            <net is_signal_inverted="no" name="Instruction_out[4]"/>
+            <net is_signal_inverted="no" name="Instruction_out[3]"/>
+            <net is_signal_inverted="no" name="Instruction_out[2]"/>
+            <net is_signal_inverted="no" name="Instruction_out[1]"/>
+            <net is_signal_inverted="no" name="Instruction_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Memwrite_out"/>
+          <bus is_signal_inverted="no" link="all" name="PC" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="PC[9]"/>
+            <net is_signal_inverted="no" name="PC[8]"/>
+            <net is_signal_inverted="no" name="PC[7]"/>
+            <net is_signal_inverted="no" name="PC[6]"/>
+            <net is_signal_inverted="no" name="PC[5]"/>
+            <net is_signal_inverted="no" name="PC[4]"/>
+            <net is_signal_inverted="no" name="PC[3]"/>
+            <net is_signal_inverted="no" name="PC[2]"/>
+            <net is_signal_inverted="no" name="PC[1]"/>
+            <net is_signal_inverted="no" name="PC[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_1_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_1_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_2_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_2_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Regwrite_out"/>
+          <net is_signal_inverted="no" name="reset"/>
+          <bus is_signal_inverted="no" link="all" name="write_data_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="write_data_out[31]"/>
+            <net is_signal_inverted="no" name="write_data_out[30]"/>
+            <net is_signal_inverted="no" name="write_data_out[29]"/>
+            <net is_signal_inverted="no" name="write_data_out[28]"/>
+            <net is_signal_inverted="no" name="write_data_out[27]"/>
+            <net is_signal_inverted="no" name="write_data_out[26]"/>
+            <net is_signal_inverted="no" name="write_data_out[25]"/>
+            <net is_signal_inverted="no" name="write_data_out[24]"/>
+            <net is_signal_inverted="no" name="write_data_out[23]"/>
+            <net is_signal_inverted="no" name="write_data_out[22]"/>
+            <net is_signal_inverted="no" name="write_data_out[21]"/>
+            <net is_signal_inverted="no" name="write_data_out[20]"/>
+            <net is_signal_inverted="no" name="write_data_out[19]"/>
+            <net is_signal_inverted="no" name="write_data_out[18]"/>
+            <net is_signal_inverted="no" name="write_data_out[17]"/>
+            <net is_signal_inverted="no" name="write_data_out[16]"/>
+            <net is_signal_inverted="no" name="write_data_out[15]"/>
+            <net is_signal_inverted="no" name="write_data_out[14]"/>
+            <net is_signal_inverted="no" name="write_data_out[13]"/>
+            <net is_signal_inverted="no" name="write_data_out[12]"/>
+            <net is_signal_inverted="no" name="write_data_out[11]"/>
+            <net is_signal_inverted="no" name="write_data_out[10]"/>
+            <net is_signal_inverted="no" name="write_data_out[9]"/>
+            <net is_signal_inverted="no" name="write_data_out[8]"/>
+            <net is_signal_inverted="no" name="write_data_out[7]"/>
+            <net is_signal_inverted="no" name="write_data_out[6]"/>
+            <net is_signal_inverted="no" name="write_data_out[5]"/>
+            <net is_signal_inverted="no" name="write_data_out[4]"/>
+            <net is_signal_inverted="no" name="write_data_out[3]"/>
+            <net is_signal_inverted="no" name="write_data_out[2]"/>
+            <net is_signal_inverted="no" name="write_data_out[1]"/>
+            <net is_signal_inverted="no" name="write_data_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Zero_out"/>
+          <net is_signal_inverted="no" name="control:CTL|ALUSrc"/>
+          <net is_signal_inverted="no" name="control:CTL|RegWrite"/>
+          <bus is_signal_inverted="no" link="all" name="Execute:EXE|ALU_ctl" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[2]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[1]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="key1"/>
+          <net is_signal_inverted="no" name="key2"/>
+          <net is_signal_inverted="no" name="key3"/>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="ALU_result_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="ALU_result_out[31]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[30]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[29]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[28]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[27]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[26]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[25]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[24]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[23]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[22]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[21]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[20]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[19]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[18]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[17]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[16]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[15]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[14]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[13]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[12]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[11]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[10]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[9]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[8]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[7]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[6]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[5]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[4]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[3]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[2]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[1]"/>
+            <net is_signal_inverted="no" name="ALU_result_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Branch_out"/>
+          <bus is_signal_inverted="no" link="all" name="Instruction_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Instruction_out[31]"/>
+            <net is_signal_inverted="no" name="Instruction_out[30]"/>
+            <net is_signal_inverted="no" name="Instruction_out[29]"/>
+            <net is_signal_inverted="no" name="Instruction_out[28]"/>
+            <net is_signal_inverted="no" name="Instruction_out[27]"/>
+            <net is_signal_inverted="no" name="Instruction_out[26]"/>
+            <net is_signal_inverted="no" name="Instruction_out[25]"/>
+            <net is_signal_inverted="no" name="Instruction_out[24]"/>
+            <net is_signal_inverted="no" name="Instruction_out[23]"/>
+            <net is_signal_inverted="no" name="Instruction_out[22]"/>
+            <net is_signal_inverted="no" name="Instruction_out[21]"/>
+            <net is_signal_inverted="no" name="Instruction_out[20]"/>
+            <net is_signal_inverted="no" name="Instruction_out[19]"/>
+            <net is_signal_inverted="no" name="Instruction_out[18]"/>
+            <net is_signal_inverted="no" name="Instruction_out[17]"/>
+            <net is_signal_inverted="no" name="Instruction_out[16]"/>
+            <net is_signal_inverted="no" name="Instruction_out[15]"/>
+            <net is_signal_inverted="no" name="Instruction_out[14]"/>
+            <net is_signal_inverted="no" name="Instruction_out[13]"/>
+            <net is_signal_inverted="no" name="Instruction_out[12]"/>
+            <net is_signal_inverted="no" name="Instruction_out[11]"/>
+            <net is_signal_inverted="no" name="Instruction_out[10]"/>
+            <net is_signal_inverted="no" name="Instruction_out[9]"/>
+            <net is_signal_inverted="no" name="Instruction_out[8]"/>
+            <net is_signal_inverted="no" name="Instruction_out[7]"/>
+            <net is_signal_inverted="no" name="Instruction_out[6]"/>
+            <net is_signal_inverted="no" name="Instruction_out[5]"/>
+            <net is_signal_inverted="no" name="Instruction_out[4]"/>
+            <net is_signal_inverted="no" name="Instruction_out[3]"/>
+            <net is_signal_inverted="no" name="Instruction_out[2]"/>
+            <net is_signal_inverted="no" name="Instruction_out[1]"/>
+            <net is_signal_inverted="no" name="Instruction_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Memwrite_out"/>
+          <bus is_signal_inverted="no" link="all" name="PC" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="PC[9]"/>
+            <net is_signal_inverted="no" name="PC[8]"/>
+            <net is_signal_inverted="no" name="PC[7]"/>
+            <net is_signal_inverted="no" name="PC[6]"/>
+            <net is_signal_inverted="no" name="PC[5]"/>
+            <net is_signal_inverted="no" name="PC[4]"/>
+            <net is_signal_inverted="no" name="PC[3]"/>
+            <net is_signal_inverted="no" name="PC[2]"/>
+            <net is_signal_inverted="no" name="PC[1]"/>
+            <net is_signal_inverted="no" name="PC[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_1_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_1_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_1_out[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="read_data_2_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="read_data_2_out[31]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[30]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[29]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[28]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[27]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[26]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[25]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[24]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[23]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[22]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[21]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[20]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[19]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[18]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[17]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[16]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[15]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[14]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[13]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[12]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[11]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[10]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[9]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[8]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[7]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[6]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[5]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[4]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[3]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[2]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[1]"/>
+            <net is_signal_inverted="no" name="read_data_2_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Regwrite_out"/>
+          <net is_signal_inverted="no" name="reset"/>
+          <bus is_signal_inverted="no" link="all" name="write_data_out" order="msb_to_lsb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="write_data_out[31]"/>
+            <net is_signal_inverted="no" name="write_data_out[30]"/>
+            <net is_signal_inverted="no" name="write_data_out[29]"/>
+            <net is_signal_inverted="no" name="write_data_out[28]"/>
+            <net is_signal_inverted="no" name="write_data_out[27]"/>
+            <net is_signal_inverted="no" name="write_data_out[26]"/>
+            <net is_signal_inverted="no" name="write_data_out[25]"/>
+            <net is_signal_inverted="no" name="write_data_out[24]"/>
+            <net is_signal_inverted="no" name="write_data_out[23]"/>
+            <net is_signal_inverted="no" name="write_data_out[22]"/>
+            <net is_signal_inverted="no" name="write_data_out[21]"/>
+            <net is_signal_inverted="no" name="write_data_out[20]"/>
+            <net is_signal_inverted="no" name="write_data_out[19]"/>
+            <net is_signal_inverted="no" name="write_data_out[18]"/>
+            <net is_signal_inverted="no" name="write_data_out[17]"/>
+            <net is_signal_inverted="no" name="write_data_out[16]"/>
+            <net is_signal_inverted="no" name="write_data_out[15]"/>
+            <net is_signal_inverted="no" name="write_data_out[14]"/>
+            <net is_signal_inverted="no" name="write_data_out[13]"/>
+            <net is_signal_inverted="no" name="write_data_out[12]"/>
+            <net is_signal_inverted="no" name="write_data_out[11]"/>
+            <net is_signal_inverted="no" name="write_data_out[10]"/>
+            <net is_signal_inverted="no" name="write_data_out[9]"/>
+            <net is_signal_inverted="no" name="write_data_out[8]"/>
+            <net is_signal_inverted="no" name="write_data_out[7]"/>
+            <net is_signal_inverted="no" name="write_data_out[6]"/>
+            <net is_signal_inverted="no" name="write_data_out[5]"/>
+            <net is_signal_inverted="no" name="write_data_out[4]"/>
+            <net is_signal_inverted="no" name="write_data_out[3]"/>
+            <net is_signal_inverted="no" name="write_data_out[2]"/>
+            <net is_signal_inverted="no" name="write_data_out[1]"/>
+            <net is_signal_inverted="no" name="write_data_out[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Zero_out"/>
+          <net is_signal_inverted="no" name="control:CTL|ALUSrc"/>
+          <net is_signal_inverted="no" name="control:CTL|RegWrite"/>
+          <bus is_signal_inverted="no" link="all" name="Execute:EXE|ALU_ctl" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[2]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[1]"/>
+            <net is_signal_inverted="no" name="Execute:EXE|ALU_ctl[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="key1"/>
+          <net is_signal_inverted="no" name="key2"/>
+          <net is_signal_inverted="no" name="key3"/>
+        </setup_view>
+      </presentation>
+      <trigger attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2020/09/11 12:13:42  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'key1' == either edge &amp;&amp; 'key2' == falling edge &amp;&amp; 'key3' == rising edge &amp;&amp; 'reset' == falling edge
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="frame size" size="2" value="1920,1001"/>
+    <multi attribute="jtag widget size" size="2" value="351,139"/>
+  </global_info>
+</session>
