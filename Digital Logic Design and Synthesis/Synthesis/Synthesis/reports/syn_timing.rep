@@ -1,0 +1,94 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Sun Dec 26 19:21:06 2021
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: U_register_file/two_bits_registers_reg[0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: data_out[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ecc_enc_dec        tsmc18_wl50           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U_register_file/two_bits_registers_reg[0][1]/CK (DFFRX4)
+                                                          0.00       0.00 r
+  U_register_file/two_bits_registers_reg[0][1]/Q (DFFRX4)
+                                                          0.90       0.90 r
+  U_register_file/two_bits_registers[0][1] (register_file_AMBA_WORD32)
+                                                          0.00       0.90 r
+  U_control_unit/CTRL[1] (control_unit)                   0.00       0.90 r
+  U_control_unit/U4/Y (INVX8)                             0.20       1.10 f
+  U_control_unit/U5/Y (AND2X4)                            0.31       1.41 f
+  U_control_unit/FC_or_Dec (control_unit)                 0.00       1.41 f
+  U240/Y (CLKINVX8)                                       0.11       1.53 r
+  U237/Y (INVX8)                                          0.15       1.68 f
+  U158/Y (CLKINVX3)                                       0.37       2.04 r
+  U132/Y (INVX20)                                         0.34       2.38 f
+  U244/Y (INVXL)                                          1.22       3.60 r
+  U259/Y (AOI22X4)                                        0.31       3.91 f
+  U164/Y (CLKINVX4)                                       0.45       4.36 r
+  U_decoder/NoisyCodeWord[31] (decoder_DATA_WIDTH32)      0.00       4.36 r
+  U_decoder/U_0/NoisyCodeWord[31] (mat_mult_DATA_WIDTH32)
+                                                          0.00       4.36 r
+  U_decoder/U_0/genblk1.mat_mult_3/NoisyCodeWord[31] (mat_mult_3_DATA_WIDTH32)
+                                                          0.00       4.36 r
+  U_decoder/U_0/genblk1.mat_mult_3/U46/Y (XOR2X4)         0.55       4.91 r
+  U_decoder/U_0/genblk1.mat_mult_3/U44/Y (XNOR2X4)        0.51       5.42 r
+  U_decoder/U_0/genblk1.mat_mult_3/U37/Y (XOR2X4)         0.48       5.90 r
+  U_decoder/U_0/genblk1.mat_mult_3/U22/Y (XOR2X4)         0.50       6.40 r
+  U_decoder/U_0/genblk1.mat_mult_3/U21/Y (XOR2X4)         0.38       6.78 r
+  U_decoder/U_0/genblk1.mat_mult_3/U20/Y (XOR2X1)         0.69       7.48 r
+  U_decoder/U_0/genblk1.mat_mult_3/U14/Y (XOR2X4)         0.68       8.15 r
+  U_decoder/U_0/genblk1.mat_mult_3/U3/Y (OAI22X4)         0.25       8.40 f
+  U_decoder/U_0/genblk1.mat_mult_3/column[4] (mat_mult_3_DATA_WIDTH32)
+                                                          0.00       8.40 f
+  U_decoder/U_0/column[4] (mat_mult_DATA_WIDTH32)         0.00       8.40 f
+  U_decoder/U27/Y (BUFX20)                                0.47       8.87 f
+  U_decoder/genblk1.H_3/column[4] (mux_H3)                0.00       8.87 f
+  U_decoder/genblk1.H_3/U49/Y (NOR2X2)                    0.52       9.39 r
+  U_decoder/genblk1.H_3/U5/Y (BUFX20)                     0.26       9.65 r
+  U_decoder/genblk1.H_3/U156/Y (NOR4BXL)                  1.44      11.08 r
+  U_decoder/genblk1.H_3/U35/Y (AOI2BB1X2)                 0.41      11.49 f
+  U_decoder/genblk1.H_3/U34/Y (INVX1)                     0.54      12.03 r
+  U_decoder/genblk1.H_3/U68/Y (AOI32X4)                   0.40      12.43 f
+  U_decoder/genblk1.H_3/U16/Y (CLKINVX3)                  0.20      12.63 r
+  U_decoder/genblk1.H_3/Decoded_Data[4] (mux_H3)          0.00      12.63 r
+  U_decoder/U11/Y (AOI22X4)                               0.22      12.85 f
+  U_decoder/U30/Y (INVX8)                                 0.19      13.04 r
+  U_decoder/Decoded_Data[4] (decoder_DATA_WIDTH32)        0.00      13.04 r
+  U38/Y (AOI22X4)                                         0.20      13.23 f
+  U257/Y (INVX8)                                          0.16      13.40 r
+  data_out[4] (out)                                       0.00      13.40 r
+  data arrival time                                                 13.40
+
+  clock clk (rise edge)                                  14.00      14.00
+  clock network delay (ideal)                             0.00      14.00
+  clock uncertainty                                      -0.10      13.90
+  output external delay                                  -0.50      13.40
+  data required time                                                13.40
+  --------------------------------------------------------------------------
+  data required time                                                13.40
+  data arrival time                                                -13.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

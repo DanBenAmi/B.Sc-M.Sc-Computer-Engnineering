@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Sun Dec 26 19:21:06 2021
+****************************************
+
+Library(s) Used:
+
+    slow (File: /users/agnon/grad/danbenam/DC/LibraryFiles/db/slow.db)
+
+Number of ports:                          790
+Number of nets:                          1838
+Number of cells:                         1158
+Number of combinational cells:           1073
+Number of sequential cells:                69
+Number of macros/black boxes:               0
+Number of buf/inv:                        414
+Number of references:                      35
+
+Combinational area:              23713.905867
+Buf/Inv area:                     6060.700873
+Noncombinational area:            5691.470413
+Macro/Black Box area:                0.000000
+Net Interconnect area:          597102.975555
+
+Total cell area:                 29405.376280
+Total area:                     626508.351835
+1

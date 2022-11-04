@@ -1,0 +1,1 @@
+{op_done_logic mux_H3 mux_H2 mux_H1 mat_mult_3_DATA_WIDTH32 mat_mult_DATA_WIDTH32 decoder_DATA_WIDTH32 noise_adder_DATA_WIDTH32 encode_H3_DATA_WIDTH32 encode_H2_DATA_WIDTH32 encode_H1_DATA_WIDTH32 encoder_DATA_WIDTH32 control_unit register_file_AMBA_WORD32 apb ecc_enc_dec}

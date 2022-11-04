@@ -1,0 +1,22 @@
+ 
+****************************************
+Report : wire loads
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Sun Dec 26 19:21:06 2021
+****************************************
+
+Wire load model:   tsmc18_wl50
+Location       :   ecc_enc_dec (design)
+Resistance     :   8.5e-08
+Capacitance    :   0.00015
+Area           :   0.7
+Slope          :   333.335
+
+                             Average   Standard  % Standard
+Fanout   Length   Points         Cap  Deviation   Deviation
+--------------------------------------------------------------
+     1   333.33                                    
+--------------------------------------------------------------
+
+1

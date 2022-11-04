@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Sun Dec 26 19:21:06 2021
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: U_register_file/two_bits_registers_reg[0][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: U_register_file/two_bits_registers_reg[0][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ecc_enc_dec        tsmc18_wl50           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U_register_file/two_bits_registers_reg[0][0]/CK (DFFRHQX4)
+                                                          0.00       0.00 r
+  U_register_file/two_bits_registers_reg[0][0]/Q (DFFRHQX4)
+                                                          0.48       0.48 f
+  U_register_file/U270/Y (AOI22X1)                        0.79       1.28 r
+  U_register_file/U269/Y (INVX1)                          0.45       1.73 f
+  U_register_file/two_bits_registers_reg[0][0]/D (DFFRHQX4)
+                                                          0.00       1.73 f
+  data arrival time                                                  1.73
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U_register_file/two_bits_registers_reg[0][0]/CK (DFFRHQX4)
+                                                          0.00       0.00 r
+  library hold time                                      -0.11      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.73
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.84
+
+
+1

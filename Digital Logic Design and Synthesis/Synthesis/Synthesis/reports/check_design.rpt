@@ -1,0 +1,93 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP4
+Date:        Sun Dec 26 19:21:06 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     76
+    Unconnected ports (LINT-28)                                    22
+    Feedthrough (LINT-29)                                          43
+    Shorted outputs (LINT-31)                                       5
+    Constant outputs (LINT-52)                                      6
+--------------------------------------------------------------------------------
+
+Warning: In design 'ecc_enc_dec', port 'PADDR[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ecc_enc_dec', port 'PADDR[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'encoder_DATA_WIDTH32', port 'DATA_IN[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'encoder_DATA_WIDTH32', port 'DATA_IN[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'encoder_DATA_WIDTH32', port 'DATA_IN[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'encoder_DATA_WIDTH32', port 'DATA_IN[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'encoder_DATA_WIDTH32', port 'DATA_IN[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'encoder_DATA_WIDTH32', port 'DATA_IN[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'encode_H1_DATA_WIDTH32', input port 'DATA_IN[3]' is connected directly to output port 'CodeWord[7]'. (LINT-29)
+Warning: In design 'encode_H1_DATA_WIDTH32', input port 'DATA_IN[2]' is connected directly to output port 'CodeWord[6]'. (LINT-29)
+Warning: In design 'encode_H1_DATA_WIDTH32', input port 'DATA_IN[1]' is connected directly to output port 'CodeWord[5]'. (LINT-29)
+Warning: In design 'encode_H1_DATA_WIDTH32', input port 'DATA_IN[0]' is connected directly to output port 'CodeWord[4]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[10]' is connected directly to output port 'CodeWord[15]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[9]' is connected directly to output port 'CodeWord[14]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[8]' is connected directly to output port 'CodeWord[13]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[7]' is connected directly to output port 'CodeWord[12]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[6]' is connected directly to output port 'CodeWord[11]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[5]' is connected directly to output port 'CodeWord[10]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[4]' is connected directly to output port 'CodeWord[9]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[3]' is connected directly to output port 'CodeWord[8]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[2]' is connected directly to output port 'CodeWord[7]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[1]' is connected directly to output port 'CodeWord[6]'. (LINT-29)
+Warning: In design 'encode_H2_DATA_WIDTH32', input port 'DATA_IN[0]' is connected directly to output port 'CodeWord[5]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[25]' is connected directly to output port 'CodeWord[31]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[24]' is connected directly to output port 'CodeWord[30]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[23]' is connected directly to output port 'CodeWord[29]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[22]' is connected directly to output port 'CodeWord[28]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[21]' is connected directly to output port 'CodeWord[27]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[20]' is connected directly to output port 'CodeWord[26]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[19]' is connected directly to output port 'CodeWord[25]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[18]' is connected directly to output port 'CodeWord[24]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[17]' is connected directly to output port 'CodeWord[23]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[16]' is connected directly to output port 'CodeWord[22]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[15]' is connected directly to output port 'CodeWord[21]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[14]' is connected directly to output port 'CodeWord[20]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[13]' is connected directly to output port 'CodeWord[19]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[12]' is connected directly to output port 'CodeWord[18]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[11]' is connected directly to output port 'CodeWord[17]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[10]' is connected directly to output port 'CodeWord[16]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[9]' is connected directly to output port 'CodeWord[15]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[8]' is connected directly to output port 'CodeWord[14]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[7]' is connected directly to output port 'CodeWord[13]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[6]' is connected directly to output port 'CodeWord[12]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[5]' is connected directly to output port 'CodeWord[11]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[4]' is connected directly to output port 'CodeWord[10]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[3]' is connected directly to output port 'CodeWord[9]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[2]' is connected directly to output port 'CodeWord[8]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[1]' is connected directly to output port 'CodeWord[7]'. (LINT-29)
+Warning: In design 'encode_H3_DATA_WIDTH32', input port 'DATA_IN[0]' is connected directly to output port 'CodeWord[6]'. (LINT-29)
+Warning: In design 'mux_H1', input port 'column[3]' is connected directly to output port 'NumOfErrors[0]'. (LINT-29)
+Warning: In design 'mux_H2', input port 'column[4]' is connected directly to output port 'NumOfErrors[0]'. (LINT-29)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[31]' is connected directly to output port 'Decoded_Data[26]'. (LINT-31)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[31]' is connected directly to output port 'Decoded_Data[27]'. (LINT-31)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[31]' is connected directly to output port 'Decoded_Data[28]'. (LINT-31)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[31]' is connected directly to output port 'Decoded_Data[29]'. (LINT-31)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[31]' is connected directly to output port 'Decoded_Data[30]'. (LINT-31)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[31]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[30]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[29]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[28]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[27]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'decoder_DATA_WIDTH32', output port 'Decoded_Data[26]' is connected directly to 'logic 0'. (LINT-52)
+1

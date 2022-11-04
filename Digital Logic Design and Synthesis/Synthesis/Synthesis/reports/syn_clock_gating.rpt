@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : clock_gating
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Sun Dec 26 19:21:06 2021
+****************************************
+
+
+
+                             Clock Gating Summary
+          ------------------------------------------------------------
+          |    Number of Clock gating elements    |        0         |
+          |                                       |                  |
+          |    Number of Gated registers          |     0 (0.00%)    |
+          |                                       |                  |
+          |    Number of Ungated registers        |    69 (100.00%)  |
+          |                                       |                  |
+          |    Total number of registers          |       69         |
+          ------------------------------------------------------------
+
+
+
+1

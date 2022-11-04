@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : area
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Sun Dec 26 19:21:06 2021
+****************************************
+
+Library(s) Used:
+
+    slow (File: /users/agnon/grad/danbenam/DC/LibraryFiles/db/slow.db)
+
+Number of ports:                          790
+Number of nets:                          1838
+Number of cells:                         1158
+Number of combinational cells:           1073
+Number of sequential cells:                69
+Number of macros/black boxes:               0
+Number of buf/inv:                        414
+Number of references:                      35
+
+Combinational area:              23713.905867
+Buf/Inv area:                     6060.700873
+Noncombinational area:            5691.470413
+Macro/Black Box area:                0.000000
+Net Interconnect area:          597102.975555
+
+Total cell area:                 29405.376280
+Total area:                     626508.351835
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  -------------------------
+ecc_enc_dec                       29405.3763    100.0   4031.5968     0.0000  0.0000  ecc_enc_dec
+U_apb                                23.2848      0.1     23.2848     0.0000  0.0000  apb
+U_control_unit                       56.5488      0.2     56.5488     0.0000  0.0000  control_unit
+U_decoder                         10035.7489     34.1   1397.0880     0.0000  0.0000  decoder_DATA_WIDTH32
+U_decoder/H_1                       442.4112      1.5    442.4112     0.0000  0.0000  mux_H1
+U_decoder/U_0                      3585.8593     12.2      0.0000     0.0000  0.0000  mat_mult_DATA_WIDTH32
+U_decoder/U_0/genblk1.mat_mult_3   3585.8593     12.2   3585.8593     0.0000  0.0000  mat_mult_3_DATA_WIDTH32
+U_decoder/genblk1.H_2              1293.9696      4.4   1293.9696     0.0000  0.0000  mux_H2
+U_decoder/genblk1.H_3              3316.4208     11.3   3316.4208     0.0000  0.0000  mux_H3
+U_encoder                          4397.5009     15.0   1297.2960     0.0000  0.0000  encoder_DATA_WIDTH32
+U_encoder/genblk1.U_encode_H1       159.6672      0.5    159.6672     0.0000  0.0000  encode_H1_DATA_WIDTH32
+U_encoder/genblk1.U_encode_H2       681.9120      2.3    681.9120     0.0000  0.0000  encode_H2_DATA_WIDTH32
+U_encoder/genblk1.U_encode_H3      2258.6256      7.7   2258.6256     0.0000  0.0000  encode_H3_DATA_WIDTH32
+U_noise_adder                      1200.8304      4.1   1200.8304     0.0000  0.0000  noise_adder_DATA_WIDTH32
+U_op_done_logic                      96.4656      0.3     26.6112    69.8544  0.0000  op_done_logic
+U_register_file                    9563.4001     32.5   3941.7841  5621.6160  0.0000  register_file_AMBA_WORD32
+--------------------------------  ----------  -------  ----------  ---------  ------  -------------------------
+Total                                                  23713.9059  5691.4704  0.0000
+
+1

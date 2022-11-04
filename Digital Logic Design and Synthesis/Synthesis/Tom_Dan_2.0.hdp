@@ -1,0 +1,20 @@
+[DesignChecker]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR/Tom_Dan_2_0_lib/designcheck
+[ModelSim]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR\Tom_Dan_2_0_lib\work
+[QuestaSim]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR/Tom_Dan_2_0_lib/work
+[hdl]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR/Tom_Dan_2_0_lib/hdl
+[hds]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR/Tom_Dan_2_0_lib/hds
+[hds_settings]
+default_library = Tom_Dan_2_0_lib
+design_root = Tom_Dan_2_0_lib.tb_overall(tb_overall)tb_overall.sv
+version = 2
+[library_files_inclusion]
+Tom_Dan_2_0_lib = specify
+[library_type]
+Tom_Dan_2_0_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
