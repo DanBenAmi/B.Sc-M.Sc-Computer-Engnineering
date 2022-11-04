@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom mux_H2
+DEFAULT_FILE atom mux_H2.sv

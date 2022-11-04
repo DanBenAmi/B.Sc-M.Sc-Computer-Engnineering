@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom noise_adder_tb
+DEFAULT_FILE atom noise_adder_tb_tb_rtl.v

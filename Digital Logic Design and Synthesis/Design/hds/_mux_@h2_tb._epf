@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom mux_H2_tb
+DEFAULT_FILE atom mux_h2_tb_tb_rtl.v

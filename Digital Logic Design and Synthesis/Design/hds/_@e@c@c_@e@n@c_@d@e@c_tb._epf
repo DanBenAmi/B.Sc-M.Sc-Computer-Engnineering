@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom ECC_ENC_DEC_tb
+DEFAULT_FILE atom ecc_enc_dec_tb_tb_rtl.v

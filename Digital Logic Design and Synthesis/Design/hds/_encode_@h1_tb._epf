@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom encode_H1_tb
+DEFAULT_FILE atom encode_h1_tb_tb_rtl.v

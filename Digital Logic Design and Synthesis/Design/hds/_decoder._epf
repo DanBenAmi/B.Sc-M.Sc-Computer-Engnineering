@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom decoder
+DEFAULT_FILE atom decoder.sv

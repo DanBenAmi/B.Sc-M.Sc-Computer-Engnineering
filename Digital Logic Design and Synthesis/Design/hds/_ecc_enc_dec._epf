@@ -1,0 +1,2 @@
+DEFAULT_FILE atom ecc_enc_dec.sv
+DEFAULT_ARCHITECTURE atom ecc_enc_dec

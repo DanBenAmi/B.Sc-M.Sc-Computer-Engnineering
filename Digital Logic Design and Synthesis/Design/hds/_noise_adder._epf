@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom noise_adder
+DEFAULT_FILE atom noise_adder.sv

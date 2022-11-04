@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom apb
+DEFAULT_FILE atom apb.sv

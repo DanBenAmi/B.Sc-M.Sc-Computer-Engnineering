@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom op_done_logic_tb
+DEFAULT_FILE atom op_done_logic_tb_tb_rtl.v

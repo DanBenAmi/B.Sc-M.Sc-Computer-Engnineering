@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom apb_tb
+DEFAULT_FILE atom apb_tb_tb_rtl.v

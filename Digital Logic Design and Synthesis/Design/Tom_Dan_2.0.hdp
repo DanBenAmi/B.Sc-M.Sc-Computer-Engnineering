@@ -1,0 +1,15 @@
+[DesignChecker]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR\Tom_Dan_2_0_lib\designcheck
+[QuestaSim]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR\Tom_Dan_2_0_lib\work
+[hdl]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR\Tom_Dan_2_0_lib\hdl
+[hds]
+Tom_Dan_2_0_lib = $HDS_PROJECT_DIR\Tom_Dan_2_0_lib\hds
+[hds_settings]
+default_library = Tom_Dan_2_0_lib
+version = 2
+[library_type]
+Tom_Dan_2_0_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

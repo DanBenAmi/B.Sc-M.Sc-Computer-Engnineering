@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom register_file_tb
+DEFAULT_FILE atom register_file_tb_tb_rtl.v

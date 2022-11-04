@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom encode_H3
+DEFAULT_FILE atom encode_H3.sv
