@@ -1,0 +1,39 @@
+Encode 8-bits
+hits:          16 out of          16
+miss:           0 out of          16
+Encode 16-bits
+hits:        2048 out of        2048
+miss:           0 out of        2048
+Encode 32_bits
+hits:      524288 out of      524288
+miss:           0 out of      524288
+Decode 8-bits
+hits:          16 out of          16
+miss:           0 out of          16
+Decode 16-bits
+hits:        2048 out of        2048
+miss:           0 out of        2048
+Decode 32_bits
+hits:      524288 out of      524288
+miss:           0 out of      524288
+Full Channel 8-bits
+hits:          16 out of          16
+miss:           0 out of          16
+Full Channel 16-bits
+hits:        2048 out of        2048
+miss:           0 out of        2048
+Full Channel 32_bits
+hits:      524288 out of      524288
+miss:           0 out of      524288
+Read from CTRL register:
+hits:           3 out of           3
+miss:           0 out of           3
+Read from DATA register:
+hits:        1000 out of        1000
+miss:           0 out of        1000
+Read from CodeWord_Width register:
+hits:           3 out of           3
+miss:           0 out of           3
+Read from Noise register:
+hits:        1000 out of        1000
+miss:           0 out of        1000

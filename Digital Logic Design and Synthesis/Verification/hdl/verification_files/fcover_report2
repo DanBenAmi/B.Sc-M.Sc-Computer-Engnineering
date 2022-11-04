@@ -1,0 +1,764 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_overall/cov
+=== Design Unit: work.Coverage
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      7        na        na    92.85%
+        Coverpoints/Crosses          9        na        na        na
+            Covergroup Bins         33        31         2    93.93%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_overall/cov/reset                           100.00%        100          -    Covered              
+    covered/total bins:                                     2          2          -                      
+    missing/total bins:                                     0          2          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/reset_1         100.00%        100          -    Covered              
+    covered/total bins:                                     2          2          -                      
+    missing/total bins:                                     0          2          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/reset_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin low                                             9          1          -    Covered              
+        bin high                                            9          1          -    Covered              
+ TYPE /tb_overall/cov/regular_test                    100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint enable                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint operation_done                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/tst             100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/tst 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint enable                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin low                                       7376984          1          -    Covered              
+        bin high                                      3688485          1          -    Covered              
+    Coverpoint operation_done                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin low                                       9486414          1          -    Covered              
+        bin high                                      1579059          1          -    Covered              
+ TYPE /tb_overall/cov/results                         100.00%        100          -    Covered              
+    covered/total bins:                                     9          9          -                      
+    missing/total bins:                                     0          9          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint data_out                               100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint num_of_errors                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/ress            100.00%        100          -    Covered              
+    covered/total bins:                                     9          9          -                      
+    missing/total bins:                                     0          9          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/ress 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint data_out                               100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin four                                       350950          1          -    Covered              
+        bin eight                                         343          1          -    Covered              
+        bin eleven                                       2464          1          -    Covered              
+        bin sixteen                                      2653          1          -    Covered              
+        bin twenty_six                                 706552          1          -    Covered              
+        bin thirty_two                                1062962          1          -    Covered              
+    Coverpoint num_of_errors                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin zero                                       350902          1          -    Covered              
+        bin one                                        350903          1          -    Covered              
+        bin two                                        350899          1          -    Covered              
+        default bin three_ot_more                           0                     -    ZERO                 
+ TYPE /tb_overall/cov/data_in                         100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint data_in                                100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/data_in_1       100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/data_in_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint data_in                                100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin four                                           70          1          -    Covered              
+        bin eight                                         505          1          -    Covered              
+        bin eleven                                       3673          1          -    Covered              
+        bin sixteen                                      2983          1          -    Covered              
+        bin twenty_six                                1057719          1          -    Covered              
+        bin thirty_two                                1064950          1          -    Covered              
+ TYPE /tb_overall/cov/adress                          100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint addres                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/adress_1        100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/adress_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint addres                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin ctrl                                      1579056          1          -    Covered              
+        bin data_in                                   1579057          1          -    Covered              
+        bin codeword_width                                 10          1          -    Covered              
+        bin noise                                      526353          1          -    Covered              
+        default bin wrong_address                           0                     -    ZERO                 
+ TYPE /tb_overall/cov/ctrl                             75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint ctrl                                    75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/ctrl_1           75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    option.name=\/tb_overall/cov/ctrl_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint ctrl                                    75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin zero                                       526354          1          -    Covered              
+        bin one                                        526354          1          -    Covered              
+        bin two                                        526354          1          -    Covered              
+        bin three                                           0          1          -    ZERO                 
+ TYPE /tb_overall/cov/codeword_width                   75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint codeword_width                          75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/codeword_width_1  
+                                                       75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    option.name=\/tb_overall/cov/codeword_width_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint codeword_width                          75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin zero                                           18          1          -    Covered              
+        bin one                                            18          1          -    Covered              
+        bin two                                            17          1          -    Covered              
+        bin three                                           0          1          -    ZERO                 
+
+=================================================================================
+=== Instance: /tb_overall/chec
+=== Design Unit: work.Checker
+=================================================================================
+
+Directive Coverage:
+    Directives                       4         4         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/tb_overall/chec/cover__proper_noise     Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(62)
+                                                                              528352 Covered   
+/tb_overall/chec/cover__rst_active       Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(53)
+                                                                                18 Covered   
+/tb_overall/chec/cover__right_adress     Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(43)
+                                                                              3688485 Covered   
+/tb_overall/chec/cover__op_done_timing   Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(33)
+                                                                              1579059 Covered   
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_overall/cov/reset                           100.00%        100          -    Covered              
+    covered/total bins:                                     2          2          -                      
+    missing/total bins:                                     0          2          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/reset_1         100.00%        100          -    Covered              
+    covered/total bins:                                     2          2          -                      
+    missing/total bins:                                     0          2          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/reset_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin low                                             9          1          -    Covered              
+        bin high                                            9          1          -    Covered              
+ TYPE /tb_overall/cov/regular_test                    100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint enable                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint operation_done                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/tst             100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/tst 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint enable                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin low                                       7376984          1          -    Covered              
+        bin high                                      3688485          1          -    Covered              
+    Coverpoint operation_done                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin low                                       9486414          1          -    Covered              
+        bin high                                      1579059          1          -    Covered              
+ TYPE /tb_overall/cov/results                         100.00%        100          -    Covered              
+    covered/total bins:                                     9          9          -                      
+    missing/total bins:                                     0          9          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint data_out                               100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint num_of_errors                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/ress            100.00%        100          -    Covered              
+    covered/total bins:                                     9          9          -                      
+    missing/total bins:                                     0          9          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/ress 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint data_out                               100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin four                                       350950          1          -    Covered              
+        bin eight                                         343          1          -    Covered              
+        bin eleven                                       2464          1          -    Covered              
+        bin sixteen                                      2653          1          -    Covered              
+        bin twenty_six                                 706552          1          -    Covered              
+        bin thirty_two                                1062962          1          -    Covered              
+    Coverpoint num_of_errors                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin zero                                       350902          1          -    Covered              
+        bin one                                        350903          1          -    Covered              
+        bin two                                        350899          1          -    Covered              
+        default bin three_ot_more                           0                     -    ZERO                 
+ TYPE /tb_overall/cov/data_in                         100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint data_in                                100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/data_in_1       100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/data_in_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint data_in                                100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin four                                           70          1          -    Covered              
+        bin eight                                         505          1          -    Covered              
+        bin eleven                                       3673          1          -    Covered              
+        bin sixteen                                      2983          1          -    Covered              
+        bin twenty_six                                1057719          1          -    Covered              
+        bin thirty_two                                1064950          1          -    Covered              
+ TYPE /tb_overall/cov/adress                          100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint addres                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/adress_1        100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_overall/cov/adress_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint addres                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin ctrl                                      1579056          1          -    Covered              
+        bin data_in                                   1579057          1          -    Covered              
+        bin codeword_width                                 10          1          -    Covered              
+        bin noise                                      526353          1          -    Covered              
+        default bin wrong_address                           0                     -    ZERO                 
+ TYPE /tb_overall/cov/ctrl                             75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint ctrl                                    75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/ctrl_1           75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    option.name=\/tb_overall/cov/ctrl_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint ctrl                                    75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin zero                                       526354          1          -    Covered              
+        bin one                                        526354          1          -    Covered              
+        bin two                                        526354          1          -    Covered              
+        bin three                                           0          1          -    ZERO                 
+ TYPE /tb_overall/cov/codeword_width                   75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint codeword_width                          75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/tb_overall/cov/codeword_width_1  
+                                                       75.00%        100          -    Uncovered            
+    covered/total bins:                                     3          4          -                      
+    missing/total bins:                                     1          4          -                      
+    % Hit:                                             75.00%        100          -                      
+    option.name=\/tb_overall/cov/codeword_width_1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint codeword_width                          75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin zero                                           18          1          -    Covered              
+        bin one                                            18          1          -    Covered              
+        bin two                                            17          1          -    Covered              
+        bin three                                           0          1          -    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 92.85%  COVERGROUP TYPES: 7
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/tb_overall/chec/cover__proper_noise     Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(62)
+                                                                              528352 Covered   
+/tb_overall/chec/cover__rst_active       Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(53)
+                                                                                18 Covered   
+/tb_overall/chec/cover__right_adress     Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(43)
+                                                                              3688485 Covered   
+/tb_overall/chec/cover__op_done_timing   Checker Verilog  SVA  D:/Users/danbenam/Desktop/Tom_Dan_2.0/Tom_Dan_2_0_lib/hdl/Checker.sv(33)
+                                                                              1579059 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 4
+
+Total Coverage By Instance (filtered view): 96.42%
+
